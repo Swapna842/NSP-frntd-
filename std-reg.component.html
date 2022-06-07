@@ -1,0 +1,120 @@
+<!--%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    <%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%-->
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <meta charset="ISO-8859-1">
+    <title>Student Registration</title>
+    </head>
+    <body>
+         <div class="container" style="padding-left:40px">
+          <br>
+        <div class="title" align="center" >Fresh Student Registration Form</div><br>
+        
+          <form action="#" [formGroup]="form" (ngSubmit)="saveStudent()">
+            <div class="user-details">
+              <label>STATE :</label>&nbsp;&nbsp;
+            <select id="state" >&nbsp;&nbsp;
+                <option vaue="Dropdown button">SELECT</option>
+                <option>Andhra Pradesh</option>
+                <option>Telangana</option>
+                <option>Arunachal Pradesh</option>
+                <option>Assam</option>
+                <option>Bihar</option>
+                <option>Chhattisgarh</option>
+                <option>Goa</option>
+                <option>Gujarat</option>
+                <option>Haryana</option>
+                <option>Himachal Pradesh</option>
+                <option>Madhya Pradesh</option>
+                <option>Maharashtra	</option>
+                <option>Uttar Pradesh</option>
+                <option>Uttarakhand</option>
+                <option>West Bengal</option>
+            </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label >DISTRICT :</label>&nbsp;&nbsp;
+            <select id="district">
+                <option vaue="Dropdown button">SELECT</option>
+                <option>Hyderabad</option>
+                <option>Kurnool</option>
+                <option>Bengaluru</option>
+                <option>Kolkata	</option>
+                <option>Lucknow</option>
+                <option>Amaravati</option>
+                <option>Itanagar</option>
+                <option>Dispur</option>
+                <option>Patna</option>
+                <option>Raipur</option>
+                <option>Chandigarh</option>
+                <option>Gandhinagar</option>
+                <option>Shimla</option>
+            </select><br><br>
+              <div class="input-box">
+                <span class="details">Name :</span> &nbsp;&nbsp;
+                <input type="text" placeholder="Enter your name" id="Name" placeholder="" >
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              
+                <span class="details">DOB :</span> &nbsp;&nbsp;
+                <input type="date" placeholder="Enter your dob" id="dob" placeholder="" >
+                <br><br>
+
+                <label>Gender :</label> &nbsp;&nbsp;
+                <select type="inoutGender" id="Gender" placeholder="" >
+                  <option>select</option>
+                  <option>Male</option>
+                  <option>Female</option>
+                  <option>Pefer not to say</option>
+                </select>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;
+
+                <span class="details">Mobile Number :</span> &nbsp;&nbsp;
+                <input type="text" placeholder="Enter your number" id="mobilenumber" placeholder="" >
+                <br><br>
+                <span class="details">Email Id :</span>  &nbsp;&nbsp;&nbsp;
+                <input type="text" placeholder="Enter your email" id="email" placeholder="" >
+              <br><br>
+                <span class="details">Institute Code :</span>  &nbsp;&nbsp;&nbsp;
+
+                <input type="text" placeholder="Enter your institute name" id="institutecode" placeholder="" >
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <span class="details">AAdhar Number :</span>  &nbsp;&nbsp;
+                <input type="text" placeholder="Enter your AAdhar number" id="adharnumber"  placeholder="" >
+             <br><br>
+                <span class="details">Bank IFSC Code :</span>&nbsp;&nbsp;
+                <input type="text" placeholder="Confirm your IFSC Code" id="bankifsccode" placeholder="">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <span class="details">Bank Account Number :</span>&nbsp;&nbsp;
+                <input type="text" placeholder="Confirm your bank account number" id="bankaccountnumber" placeholder="">
+              <br><br>
+             
+                <span class="details">Bank Name :</span>&nbsp;&nbsp;
+                <input type="text" placeholder="Confirm your Bank name" id="bankname" placeholder="">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <span class="details">Set your Password :</span>&nbsp;&nbsp;
+                <input type="text" placeholder="your password"  id="setpassword" placeholder="">
+            <br><br>
+                <span class="details">Confirm Password :</span>&nbsp;&nbsp;
+                <input type="text" placeholder="Confirm your password" id="confirmpassword" placeholder="">
+              </div>
+            </div>
+            <div class="button">
+             
+              <input routerlink="/successful" type="submit" value="Register" style="width: 90px;;">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <input type="reset" value="Reset" style="width: 90px; ">
+            </div>
+          </form>
+        </div>
+      
+         
+    
+    
+    
+    </body>
+    </html>
+    

@@ -1,0 +1,284 @@
+<!--%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    <%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%-->
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <meta charset="ISO-8859-1">
+    <title>Student Registration</title>
+    </head>
+    <body>
+         <div class="container" style="padding-left:40px">
+          <form action="#" >
+            <div class="user-details">
+
+                <br>
+                <h2 align = "center"><strong>INSTITUTE REGISTRATION REQUEST FORM</strong></h2><br>
+                <h3>BASIC DETAILS</h3><br>
+                <label>INSTITUTE CATEGORY :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select>
+                    <option vaue="Dropdown button">SELECT</option>
+                    <option>Educational Institution</option>
+                    <option>Research Institution</option>
+                    <option>Legal Research Institutes</option>
+                    
+                </select>
+                <br>
+                <br>
+                <label>NAME :</label>&nbsp;&nbsp;
+                <input type="name" required>
+                <br>
+                <br>
+                <label>STATE :</label>&nbsp;&nbsp;
+                <select>
+                    <option vaue="Dropdown button">SELECT</option>
+                    <option>Andhra Pradesh</option>
+                    <option>Arunachal Pradesh</option>
+                    <option>Assam</option>
+                    <option>Bihar</option>
+                    <option>Chhattisgarh</option>
+                    <option>Goa</option>
+                    <option>Gujarat</option>
+                    <option>Haryana</option>
+                    <option>Himachal Pradesh</option>
+                    <option>Madhya Pradesh</option>
+                    <option>Maharashtra	</option>
+                    <option>Uttar Pradesh</option>
+                    <option>Uttarakhand</option>
+                    <option>West Bengal</option>
+                </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label >DISTRICT :</label>&nbsp;&nbsp;
+                <select>
+                    <option vaue="Dropdown button">SELECT</option>
+                    <option>Hyderabad</option>
+                    <option>Bengaluru</option>
+                    <option>Kolkata	</option>
+                    <option>Lucknow</option>
+                    <option>Amaravati</option>
+                    <option>Itanagar</option>
+                    <option>Dispur</option>
+                    <option>Patna</option>
+                    <option>Raipur</option>
+                    <option>Chandigarh</option>
+                    <option>Gandhinagar</option>
+                    <option>Shimla</option>
+                </select>
+                <br>
+                <br>
+                <label>INSTITUTE CODE :</label>&nbsp;&nbsp;
+                <input type="name" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label>DISE CODE :</label>&nbsp;&nbsp;
+                <input type="name" required>&nbsp;&nbsp;&nbsp;
+                <br><br>
+                <label>LOCATION :</label>&nbsp;&nbsp;
+                <input type="radio" name="location">RURAL
+                <input type="radio" name="location">URBAN
+                <br><br>
+                <label>INSTITUTE TYPE :</label>&nbsp;&nbsp;
+                <select>
+                    <option vaue="Dropdown button">SELECT</option>
+                    <option>SCHOOLS</option>
+                    <option>COLLEGES</option>
+                    <option>UNIVERSITIES</option>
+                    <option>POLYTECHNICS</option>
+                </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label>AFFILIATED UNIVERSITY STATE  :</label>
+                <select>&nbsp;&nbsp;&nbsp;
+                    <option vaue="Dropdown button">SELECT</option>
+                    <option>Andhra Pradesh</option>
+                    <option>Arunachal Pradesh</option>
+                    <option>Assam</option>
+                    <option>Bihar</option>
+                    <option>Chhattisgarh</option>
+                    <option>Goa</option>
+                    <option>Gujarat</option>
+                    <option>Haryana</option>
+                    <option>Himachal Pradesh</option>
+                    <option>Madhya Pradesh</option>
+                    <option>Maharashtra	</option>
+                    <option>Uttar Pradesh</option>
+                    <option>Uttarakhand</option>
+                    <option>West Bengal</option>
+                </select>
+                <br><br>
+                <label>AFFILIATED UNIVERSITY/BOARD NAME :</label>&nbsp;&nbsp;&nbsp;
+                <input type="name" required>
+                <br><br>
+                <label>YEAR FROM WHICH ADMISSION STARTED  : </label>&nbsp;&nbsp;&nbsp;&nbsp;
+                <select id="year" name="year">
+                    <option>Select</option>
+                    <option value="1940">1940</option>
+                    <option value="1941">1941</option>
+                    <option value="1942">1942</option>
+                    <option value="1943">1943</option>
+                    <option value="1944">1944</option>
+                    <option value="1945">1945</option>
+                    <option value="1946">1946</option>
+                    <option value="1947">1947</option>
+                    <option value="1948">1948</option>
+                    <option value="1949">1949</option>
+                    <option value="1950">1950</option>
+                    <option value="1951">1951</option>
+                    <option value="1952">1952</option>
+                    <option value="1953">1953</option>
+                    <option value="1954">1954</option>
+                    <option value="1955">1955</option>
+                    <option value="1956">1956</option>
+                    <option value="1957">1957</option>
+                    <option value="1958">1958</option>
+                    <option value="1959">1959</option>
+                    <option value="1960">1960</option>
+                    <option value="1961">1961</option>
+                    <option value="1962">1962</option>
+                    <option value="1963">1963</option>
+                    <option value="1964">1964</option>
+                    <option value="1965">1965</option>
+                    <option value="1966">1966</option>
+                    <option value="1967">1967</option>
+                    <option value="1968">1968</option>
+                    <option value="1969">1969</option>
+                    <option value="1970">1970</option>
+                    <option value="1971">1971</option>
+                    <option value="1972">1972</option>
+                    <option value="1973">1973</option>
+                    <option value="1974">1974</option>
+                    <option value="1975">1975</option>
+                    <option value="1976">1976</option>
+                    <option value="1977">1977</option>
+                    <option value="1978">1978</option>
+                    <option value="1979">1979</option>
+                    <option value="1980">1980</option>
+                    <option value="1981">1981</option>
+                    <option value="1982">1982</option>
+                    <option value="1983">1983</option>
+                    <option value="1984">1984</option>
+                    <option value="1985">1985</option>
+                    <option value="1986">1986</option>
+                    <option value="1987">1987</option>
+                    <option value="1988">1988</option>
+                    <option value="1989">1989</option>
+                    <option value="1990">1990</option>
+                    <option value="1991">1991</option>
+                    <option value="1992">1992</option>
+                    <option value="1993">1993</option>
+                    <option value="1994">1994</option>
+                    <option value="1995">1995</option>
+                    <option value="1996">1996</option>
+                    <option value="1997">1997</option>
+                    <option value="1998">1998</option>
+                    <option value="1999">1999</option>
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                    <option value="2003">2003</option>
+                    <option value="2004">2004</option>
+                    <option value="2005">2005</option>
+                    <option value="2006">2006</option>
+                    <option value="2007">2007</option>
+                    <option value="2008">2008</option>
+                    <option value="2009">2009</option>
+                    <option value="2010">2010</option>
+                    <option value="2011">2011</option>
+                    <option value="2012">2012</option>
+                    <option value="2013">2013</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                </select>
+                <br><br>
+                <label>SET PASSWORD :</label>&nbsp;&nbsp;&nbsp;
+                <input type="password" required>
+                <br><br>
+                <label>CONFIRM PASSWORD :</label>&nbsp;&nbsp;&nbsp;
+                <input id="password" type="password" name="password_confirmation" required>
+                <br><br>
+                <h2>PROOF OF EXISTANCE OF INSTITUTE:</h2>&nbsp;&nbsp;&nbsp;
+                <br>
+                <label>INSTITUTE ESTABLISHMENT/REGISTRATION CERTIFICATE :</label>&nbsp;&nbsp;
+                <button onclick="document.getElementById('getFile').click()">UPLOAD</button><br><br>
+                <br>
+                <h3>AFFILIATED TO :</h3>
+                <br>
+                <label>UNIVERSITY/BOARD AFFILIATION CERTIFICATE :</label>&nbsp;&nbsp;
+                <button onclick="document.getElementById('getFile').click()">UPLOAD</button><br><br>
+                <h3>ADDRESS :</h3><br>
+                <label>LINE 1 :</label>&nbsp;&nbsp;
+                <input type="name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label>LINE 2 :</label>&nbsp;&nbsp;
+                <input type="name">
+                <br><br>
+                <label>CITY :</label>&nbsp;&nbsp;
+                <input type="name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label>STATE :</label>&nbsp;&nbsp;
+                <select>&nbsp;&nbsp;
+                    <option vaue="Dropdown button">SELECT</option>
+                    <option>Andhra Pradesh</option>
+                    <option>Arunachal Pradesh</option>
+                    <option>Assam</option>
+                    <option>Bihar</option>
+                    <option>Chhattisgarh</option>
+                    <option>Goa</option>
+                    <option>Gujarat</option>
+                    <option>Haryana</option>
+                    <option>Himachal Pradesh</option>
+                    <option>Madhya Pradesh</option>
+                    <option>Maharashtra	</option>
+                    <option>Uttar Pradesh</option>
+                    <option>Uttarakhand</option>
+                    <option>West Bengal</option>
+                </select>
+                <br><br>
+                <label>DISTRICT :</label>
+                <select>
+                    <option vaue="Dropdown button">SELECT</option>
+                    <option>Hyderabad</option>
+                    <option>Bengaluru</option>
+                    <option>Kolkata	</option>
+                    <option>Lucknow</option>
+                    <option>Amaravati</option>
+                    <option>Itanagar</option>
+                    <option>Dispur</option>
+                    <option>Patna</option>
+                    <option>Raipur</option>
+                    <option>Chandigarh</option>
+                    <option>Gandhinagar</option>
+                    <option>Shimla</option>
+                </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label>PINCODE :</label>&nbsp;&nbsp;
+                <input type="number" required>
+                <br><br>
+                <h3>CONTACT DETAILS :</h3>
+                <br>
+                <label>PRINCIPAL NAME :</label>
+                <input type="name" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label>MOBILE NUMBER  :</label>
+                <input type="number" required>
+                <br><br>
+                <label>TELEPHONE  :</label>
+                <input type="number">
+                <br><br>
+                <input type="checkbox">
+                ALL THE DETAILS AND DOCUMENTS SUBMITTED BY US ARE VALID AND TRUE
+                <br>
+                <pre>
+                    <font face="Timesnew Roman" size="">FOUND GUILTY OF SUBMITTING INVALID DOCUMENTS, WE MAY BE HELD RESPOSIBLE FOR THAT ACT BY US.</font></pre>
+                <button style="background-color:green;color:white" type="submit">SUBMIT</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button style="background-color:green;color:white" type="reset">RESET</button>
+                <br><br>
+            </div>
+          </form>
+        </div>
+      
+         
+    
+    
+    
+    </body>
+    </html>
+    
