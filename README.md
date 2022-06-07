@@ -1,2 +1,0 @@
-# National-Scholarship-Portal-fortend
-
